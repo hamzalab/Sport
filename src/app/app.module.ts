@@ -32,6 +32,7 @@ import { DisplayUserComponent } from './components/display-user/display-user.com
 import { DisplayPlayerComponent } from './components/display-player/display-player.component';
 import { AllUsersComponent } from './components/all-users/all-users.component';
 import { EditUserComponent } from './components/edit-user/edit-user.component';
+import { TrColorDirective } from './directives/tr-color.directive';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { EditUserComponent } from './components/edit-user/edit-user.component';
     DisplayPlayerComponent,
     AllUsersComponent,
     EditUserComponent,
-    ReversePipe  ],
+    ReversePipe,
+    TrColorDirective  ],
   imports: [ 
     FormsModule, 
     ReactiveFormsModule,
